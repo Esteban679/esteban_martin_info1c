@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %} Homepage Clé {% endblock %}
+{% block body %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Bienvenue à la page d'accueil !!
+			</h3>
+			<h4>
+				Ce que contient ma BD :<br>
+			</h4>
+			<ul>
+				<li class="list-item">
+					La T_fournisseur en CRUD
+				</li>
+				<li class="list-item">
+					La T_type en CRUD
+				</li>
+				<li class="list-item">
+					La T_lieu_stock en CRUD
+				</li>
+				<li class="list-item">
+					La T_lieu_ouverture en CRUD
+				</li>
+				<li class ="list-item">
+					Une table de liaison entre ma T_cle et ma T_fournisseur
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endblock %}
